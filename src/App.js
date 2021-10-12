@@ -1,12 +1,16 @@
+import React from 'react'
+import Button from './Button'
 
-import './App.css';
-
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <p>Hellowaorld</p>
+    <div>
+      <div>App</div>
+      <Button/>
+      <Button/>
+      <Button/>
+      <Button/>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
