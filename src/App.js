@@ -4,7 +4,7 @@ import Button from './Button'
 const App = () => {
   return (
     <div>
-      <div>App</div>
+      <div>職務経歴書</div>
       <Button/>
       <Button/>
       <Button/>
