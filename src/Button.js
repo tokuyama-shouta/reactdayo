@@ -1,11 +1,11 @@
 import React from 'react'
 
-const  Button = () => {
+const  Button = (props) => {
   return (
     <div>
       <button className="ui basic button">
        <i class="icon user"></i>
-            Add Friend
+            {props.title}
       </button>
       
     </div>

@@ -5,10 +5,10 @@ const App = () => {
   return (
     <div>
       <div>職務経歴書</div>
-      <Button/>
-      <Button/>
-      <Button/>
-      <Button/>
+      <Button title="post"/>
+      <Button title="edit"/>
+      <Button title="delete"/>
+      <Button title="submit"/>
     </div>
   )
 }
