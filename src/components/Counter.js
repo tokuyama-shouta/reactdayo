@@ -11,8 +11,8 @@ const Counter = () => {
   return(
     <div>
       <p>Count:{count}</p>
-      <button className='ui primary button' onClick={onCountUp}>Increment</button>
-      <button className='ui red button' onClick={onCountDown}>DEcrement</button>
+      <button className='ui primary button' onClick={onCountUp}>Increment!</button>
+      <button className='ui red button' onClick={onCountDown}>DEcrement!</button>
     </div>
     
   )
