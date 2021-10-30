@@ -38,6 +38,15 @@
 // val5.push(6)
 // console.log(val5);
 
+//テンプレート文字列
+const name = " pkpk";
+const age = 28;
+//私の名前はpkpkです。年齢は26歳です。
+
+const message1 = "私の名前は" + name + "です。年齢は" + age + "です。"
+//テンプレート文字列
+const message2 = `私の名前は${name}です。年齢は${age}です。`
+
 
 
 
