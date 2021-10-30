@@ -39,13 +39,31 @@
 // console.log(val5);
 
 //テンプレート文字列
-const name = " pkpk";
-const age = 28;
+// const name = " pkpk";
+// const age = 28;
 //私の名前はpkpkです。年齢は26歳です。
 
-const message1 = "私の名前は" + name + "です。年齢は" + age + "です。"
+// const message1 = "私の名前は" + name + "です。年齢は" + age + "です。"
 //テンプレート文字列
-const message2 = `私の名前は${name}です。年齢は${age}です。`
+// const message2 = `私の名前は${name}です。年齢は${age}です。`
+
+//アロー関数
+
+//従来の関数
+function func1(str) {
+  return str;
+}
+console.log(func1("func1です。"));
+
+const func2 = (str) => str;
+console.log(func2("func2です。"));
+
+const func3 = (num1,num2) => {
+  return num1 + num2;
+};
+console.log(func3(10,20));
+
+
 
 
 
